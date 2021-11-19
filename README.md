@@ -1,2 +1,2 @@
 # VSTheme-CiberDark
-![This is an image](https://drive.google.com/file/d/12eQ15lg9qer1lTSUK23tj5D5BJtS-248/view?usp=sharing)
+![This is an image](./Снимок экрана 2021-11-19 в 22.26.01.png)
