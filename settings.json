@@ -1,0 +1,200 @@
+{
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.size": "fill",
+    "editor.minimap.side": "left",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": null,
+    "editor.formatOnSave": false,
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "gitlens.defaultDateFormat": null,
+    "tabnine.experimentalAutoImports": true,
+    "git.confirmSync": false,
+    "glassit.alpha": 150,
+    "glassit.step": 20,
+    "workbench.colorTheme": "Monokai Pro",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {  
+        "terminal.background":"#231F20",
+        "terminal.foreground":"#60ca7a",
+        "terminalCursor.background":"#ffee03",
+        "terminalCursor.foreground":"#ffffff",
+        "terminal.ansiBlack":"#231F20",
+        "terminal.ansiBlue":"#009DDC",
+        "terminal.ansiBrightBlack":"#737171",
+        "terminal.ansiBrightBlue":"#009DDC",
+        "terminal.ansiBrightCyan":"#85CEBC",
+        "terminal.ansiBrightGreen":"#00853E",
+        "terminal.ansiBrightMagenta":"#98005D",
+        "terminal.ansiBrightRed":"#EE2E24",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#FFD204",
+        "terminal.ansiCyan":"#85CEBC",
+        "terminal.ansiGreen":"#00853E",
+        "terminal.ansiMagenta":"#98005D",
+        "terminal.ansiRed":"#EE2E24",
+        "terminal.ansiWhite":"#D9D8D8",
+        "terminal.ansiYellow":"#FFD204",
+
+        "editor.background": "#2c2930",
+        "editor.selectionBackground": "#3b363f",
+        "editor.foreground": "#ff0000",
+        "editor.lineHighlightBackground": "#353535",
+
+        "list.activeSelectionBackground": "#7254b8",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.activeSelectionIconForeground":"#ff7ce3",
+        "list.focusHighlightForeground": "#9dffb2",
+
+        "sideBar.background": "#342d3b",
+        "sideBar.foreground": "#ebdbfc",
+        "sideBar.border": "#ffe695",
+        "sideBarTitle.foreground": "#ffffff",
+        "sideBarSectionHeader.background":"#ffe695",
+        "sideBarSectionHeader.border": "#ffe695",
+
+        "tab.border": "#ffe695",
+        "tab.activeBackground": "#ffe695",
+        "editorGroup.border": "#ffe695",
+        "editorGroup.dropBackground":"#ffe695",
+        "editorGroupHeader.noTabsBackground": "#ffe695",
+        "editorGroupHeader.tabsBackground": "#342d3b",
+        "editorGroupHeader.tabsBorder": "#ffe695",
+        "tab.inactiveBackground": "#342d3b",
+        "tab.inactiveForeground": "#ffffff",
+        "tab.activeForeground": "#000000",
+        "tab.hoverForeground": "#ffe695",
+        "tab.unfocusedHoverForeground": "#ffffff",
+        "tab.unfocusedHoverBackground": "#342d3b",
+        "tab.hoverBackground": "#7254b8",
+
+        "panel.background": "#ffffff",
+        "panel.border": "#ffffff",
+
+        "menu.background":"#ff0000",
+
+        "button.foreground": "#ffffff",
+        "button.background": "#534363",
+
+        "input.background": "#2c2930",
+        "input.border": "#2c2930",
+
+        "activityBar.background": "#342d3b",
+        "activityBar.foreground": "#ffe695",
+        "activityBar.inactiveForeground": "#ffffff",
+        "activityBar.border": "#ffe695",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            //название функции
+            {
+                "scope": [
+                    "entity.name.function.js",
+                ],
+                "settings": {
+                    "foreground": "#91ffc2",
+                    // "fontStyle": "bold"
+                }
+            },
+            //перменные объявление
+            {
+                "scope": [
+                    "storage.type.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#c1a6ff",
+                    "fontStyle": ""
+                }
+            },
+            //объявление функции
+            {
+                "scope": [
+                    "storage.type.function.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#c1a6ff",
+                    "fontStyle": ""
+                }
+            },
+            //название переменной при объявлении
+            {
+                "scope": [
+                    "variable.other.readwrite.js",
+                    "meta.function.parameters.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#ffe695",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.object.js",
+                    "variable.other.object.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#ffa155",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property.js",
+                    "meta.property.object.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#ff5555",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.flow.js",
+                    "meta.function.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#91f8ff",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.double.js",
+                    "meta.function.arrow.js",
+                    "meta.function.arrow.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.string.end.js",
+                    "string.quoted.single.js",
+                    "meta.function-call.with-arguments.js",
+                    "source.js"
+                ],
+                "settings": {
+                    "foreground": "#ffffff",
+                    "fontStyle": ""
+                }
+            },
+        ]
+    }
+}
